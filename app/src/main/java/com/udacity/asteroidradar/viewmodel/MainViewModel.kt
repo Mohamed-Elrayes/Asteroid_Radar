@@ -28,6 +28,7 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
 
     val state = _state.asStateFlow()
 
+
     private val _picture: MutableLiveData<PictureState> =
         MutableLiveData(PictureState(null))
 
